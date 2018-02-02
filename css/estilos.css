@@ -217,7 +217,7 @@ footer div#avisoCookies a{
     
 }
 
-footer div#redesSociales {
+footer div#redesSocialesCopy {
     
     display: inline-block;
     text-align: right;
@@ -226,18 +226,18 @@ footer div#redesSociales {
     margin-top: 0.3rem;
 }
 
-footer div#redesSociales i {
+footer div#redesSocialesCopy i {
     width: 25px;
     text-align: center;
 
 
 }
 
-div#redesSociales a {
+div#redesSocialesCopy a {
     text-decoration: none;
 }
 
-footer div#redesSociales p>a {
+footer div#redesSocialesCopy p>a {
     text-decoration: none;
     color: white;
 }
@@ -334,7 +334,7 @@ footer p {
         text-decoration: none;
         color: white;
         font-size: 0.8rem;
-        border: 1px solid rgb(36, 143, 75);
+        /* border: 1px solid rgb(36, 143, 75); */
 
     }
 
@@ -343,25 +343,53 @@ footer p {
         font-size: 1.2rem;
         text-align: center;
         /* margin-right: 0.1rem; */
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
     }
 
     
     main {
         margin-top: 2rem;
+    }
 
-}
 
+    /* FOOTER */
 
-/* 
+    footer {
+        height: 4.5rem;
+        /* border: 1px solid yellow; */
+        /* margin-left: 1rem;
+        margin-right: 1rem; */
 
-    footer div#avisoCookies a{
+        /* margin: 0 auto;
+        width: 98%; */
+    }
 
+    footer div#avisoCookies a {
+        font-size: 0.8rem;
+        line-height: 1.6em;
+        margin-left: 1rem;
+    }
+
+    footer div#redesSocialesCopy {
+        /* border: 1px solid orange; */
+        margin-top: 0.8rem;
+        margin-right: 0.7rem;
+    }
+
+    footer div#redesSocialesCopy i.fa {
+        font-size: 1.7rem;
+        /* border: 1px solid red; */
+        width: 3rem;
+        margin-bottom: 0.5rem;
+        
+    }
+
+    footer div#redesSocialesCopy p>a {
         font-size: 0.6rem;
-    
-        
-        
-    } */
-    
+        /* border: 1px solid blue; */
+        margin-right: 1em;
+        /* margin-bottom: 2rem; */
+    }
+
 }
