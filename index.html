@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        div.div {
+            background-color: blueviolet;
+        }
+
+
+        div#lista {
+            display: none;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <button onclick="aplicarEstilos()">aida</button>
+
+    <div id="lista">
+        <ul>
+            <li>Aida</li>
+            <li>Soriano</li>
+            <li>Serra</li>
+        </ul>
+
+    </div>
+
+    <div class="div">DIV</div>
+
+
+    <script>
+        function aplicarEstilos() {
+            document.getElementById("lista").style.display = "block";
+            
+            // document.getElementsById("lista").style.position = "absoluted";
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
