@@ -1,0 +1,72 @@
+footer {
+    background-color: black;
+   
+    width: 100%;
+    height: 3rem;
+    /* position: fixed;
+    top: 10rem;
+    right: 0px; */
+
+
+    
+}
+
+footer div#avisoCookies {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    /* border: 1px solid rgb(6, 5, 92); */
+}
+
+footer div#avisoCookies a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.5rem;
+    line-height: 0.8rem;
+    display: block;
+
+    
+    
+}
+
+footer div#redesSocialesCopy {
+    
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    right: 1rem;
+    margin-top: 0.3rem;
+}
+
+footer div#redesSocialesCopy i {
+    width: 25px;
+    text-align: center;
+
+
+}
+
+div#redesSocialesCopy a {
+    text-decoration: none;
+}
+
+footer div#redesSocialesCopy p>a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .fa-facebook-official {
+    color: #4267b2;
+
+}
+footer .fa-twitter {
+    color: rgb(27, 149, 224);
+}
+
+footer .fa-instagram {
+    color: #857878;
+}
+footer p {
+    padding-top: 0.2rem;
+    color: white;
+    font-size: 0.5rem;
+}
