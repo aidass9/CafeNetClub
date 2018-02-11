@@ -259,8 +259,12 @@ footer .fa-instagram {
         position: absolute;
         z-index: 5;
 
-        
     }
+
+    header img#logo:hover {
+        transform: scale(1.1, 1.1);
+    }
+
     header section#cabeceraPc {
         display: block;
     }
@@ -306,6 +310,7 @@ footer .fa-instagram {
         margin: 0.2rem;
 
     }
+    
     header nav#menuPaginasPc a {
         text-decoration: none;
         color: white;
