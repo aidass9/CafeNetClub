@@ -310,7 +310,7 @@ footer .fa-instagram {
         margin: 0.2rem;
 
     }
-    
+
     header nav#menuPaginasPc a {
         text-decoration: none;
         color: white;
@@ -370,5 +370,10 @@ footer .fa-instagram {
     footer div#avisoCookies a:hover {
         color: #844e34;
         font-weight: bold;
+        font-size: 0.8rem;
+    }
+
+    footer div#redesSocialesCopy i:hover {
+        transform: scale(1.4, 1.4);
     }
 }
