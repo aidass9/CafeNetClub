@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/estilos.css">
-    
+    <link rel="stylesheet" type="text/css" href="./css/banners.css">
 
     <title>Cafe Net Club</title>
 </head>
@@ -19,7 +19,9 @@
     <header>
         <section id="cabeceraMovil">
             <div id="logoEnlacesMovil">
-                <a href="plantilla.html"><img id="logo" src="./img/cabecera/logo.png"></a>
+                <a href="plantilla.html">
+                    <img id="logo" src="./img/cabecera/logo.png">
+                </a>
                 <h5>Cafe Net Club</h5>
                 <i onclick="mostrarMenu(this)" id="botonMenu" class="fa fa-bars" aria-hidden="true"></i>
             </div>
@@ -64,19 +66,21 @@
 
 
         <section id="cabeceraPc">
-            <a href="plantilla.html"><img id="logo" src="./img/cabecera/logo.png"></a>
+            <a href="plantilla.html">
+                <img id="logo" src="./img/cabecera/logo.png">
+            </a>
 
             <nav id="logoInicio">
 
                 <ul id="registroInicio">
-                        <li>
-                            <a href="iniciarSesion.html">
-                                <i class="fa fa-user" aria-hidden="true"></i>Iniciar sesión</a>
-                        </li>
-                        <li>
-                            <a href="registrarse.html">
-                                <i class="fa fa-sign-in" aria-hidden="true"></i>Registrarse</a>
-                        </li>
+                    <li>
+                        <a href="iniciarSesion.html">
+                            <i class="fa fa-user" aria-hidden="true"></i>Iniciar sesión</a>
+                    </li>
+                    <li>
+                        <a href="registrarse.html">
+                            <i class="fa fa-sign-in" aria-hidden="true"></i>Registrarse</a>
+                    </li>
                 </ul>
 
             </nav>
@@ -111,12 +115,28 @@
 
     </header>
 
-    <section id="bannerIzq">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorem deserunt earum voluptatum quasi? Ut molestiae aut vitae, illo quidem pariatur non, aliquam maiores alias ullam nostrum. Eaque, quis voluptatem?
-    </section>
+    <a href="ideasParaRegalar.html" id="enlaceTiendaIzq">
+        <section id="bannerIzq">
+            <h6>¡PROMOCIÓN!</h6>
+            <p>Aprovechate de las ofertas que tenemos.</p>
+
+            <p>El lunes, miércoles y viernes, un 15%* de descuento</p>
+
+            <img src="./img/descuento.png">
+            <br>
+
+            <small>*Por compras superiores a 25€</small>
+        </section>
+    </a>
+
 
     <section id="bannerDer">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorem deserunt earum voluptatum quasi? Ut molestiae aut vitae, illo quidem pariatur non, aliquam maiores alias ullam nostrum. Eaque, quis voluptatem?
+        <h6>¡OFERTA DEL MES!</h6>
+        <img src="./img/tazaGOT.jpg">
+        <p id="tituloArticulo">Taza GOT Stark</p>
+        <p id="precioAntes">Antes: 15€</p>
+        <p id="precioAhora">Ahora: 4'5€</p>
+        <button onclick="ideasParaRegalar.html">Comprar</button>
     </section>
 
     <main>

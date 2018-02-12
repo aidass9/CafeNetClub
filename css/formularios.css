@@ -23,3 +23,7 @@ main form input[type='submit']:hover {
     background-color: #844e34;
     border: 1px solid #daaa93;
 }
+
+main form div#boton {
+    text-align: right;
+}

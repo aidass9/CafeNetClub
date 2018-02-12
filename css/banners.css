@@ -1,0 +1,75 @@
+section#bannerIzq, section#bannerDer {
+    padding-top: 1.5rem;
+    text-align: center;
+    background-color: #D46A6A;
+    border: 2px solid #FFAAAA;
+    text-decoration: none;
+
+}
+
+section#bannerIzq h6, section#bannerDer h6 {
+    color: #550000;
+}
+
+/* BANNER IZQUIERDA */
+section#bannerIzq p {
+    font-size: 0.7rem;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+section#bannerIzq img {
+    width: 6rem;
+}
+
+section#bannerIzq small {
+    font-size: 0.5rem;
+    color: black;
+    font-style: italic;
+    position: absolute;
+    bottom: 0.5rem;
+    width: 100%;
+    left: 0;
+
+}
+
+/* BANNER DERECHA */
+section#bannerDer img {
+    width: 5rem;
+}
+
+/* section#bannerDer img:hover {
+    width: 5.5rem;
+} */
+
+section#bannerDer p#tituloArticulo {
+    font-size: 0.7rem;
+    color: #FFAAAA;
+}
+
+section#bannerDer p#precioAntes {
+    text-decoration: line-through;
+    color: black;
+}
+
+section#bannerDer p#precioAhora {
+    background-color: #AA3939;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.2rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
+
+section#bannerDer button {
+    background-color: #550000;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 10px; 
+}
+
+section#bannerDer button:hover {
+    background-color: white;
+    color: #550000;
+}
