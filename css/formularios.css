@@ -1,0 +1,25 @@
+section#bannerIzq, section#bannerDer {
+    display: none;
+}
+
+
+form {
+    width: 15rem;
+    margin: 0 auto;
+    font-size: 0.8rem;
+}
+
+main form input[type] {
+    font-size: 0.6rem;
+}
+
+main form input[type='submit'] {
+    background-color: #daaa93;
+    border: 1px solid #844e34;
+    position: right;
+}
+
+main form input[type='submit']:hover {
+    background-color: #844e34;
+    border: 1px solid #daaa93;
+}
