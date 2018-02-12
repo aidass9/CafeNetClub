@@ -283,18 +283,21 @@ footer .fa-instagram {
     header nav#logoInicio li {
         list-style: none;
         display: inline-block;
+        width: 7rem;
     }
     header nav#logoInicio a {
         text-decoration: none;
         color: white;
         font-size: 0.7rem;
         margin-left: 1rem;
+
     }
     header ul#registroInicio i.fa {
         width: 1.5rem;
         font-size: 1.2rem;
         text-align: center;
         margin-right: 0.1rem;
+        
     }
     header nav#menuPaginasPc ul {
         background-color: #daaa93;
@@ -308,6 +311,9 @@ footer .fa-instagram {
         display: inline-block;
         list-style: none;
         margin: 0.2rem;
+        text-align: center;
+        width: 9.5rem;
+        /* border: 1px solid red; */
 
     }
 
@@ -321,6 +327,7 @@ footer .fa-instagram {
     header nav#menuPaginasPc a:hover,  header ul#registroInicio a:hover {
         color: #451B07;
         font-weight: bold;
+        font-size: 0.9rem;
 
     }
 
@@ -328,6 +335,7 @@ footer .fa-instagram {
         width: 1.9rem;
         font-size: 1.2rem;
         text-align: center;
+
 
     }
     main {
@@ -363,6 +371,10 @@ footer .fa-instagram {
     p .fa-arrow-circle-up {
         bottom: 4rem;
         font-size: 2.5rem;
+    }
+
+    p .fa-arrow-circle-up:hover {
+        font-size: 2.8rem;
     }
 
     /* FOOTER */
