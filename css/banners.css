@@ -1,5 +1,7 @@
+@charset "utf-8";
+
 section#bannerIzq, section#bannerDer {
-    padding-top: 1.5rem;
+    padding-top: 1.2rem;
     text-align: center;
     background-color: #D46A6A;
     border: 2px solid #FFAAAA;
@@ -19,7 +21,7 @@ section#bannerIzq p {
 }
 
 section#bannerIzq img {
-    width: 6rem;
+    width: 80%;
 }
 
 section#bannerIzq small {
@@ -35,33 +37,37 @@ section#bannerIzq small {
 
 /* BANNER DERECHA */
 
-section#bannerDer div {
-    border: 1px solid red;
-    height: 50%;
-    background-color: yellow;
-}
 section#bannerDer img {
-    width: 5rem;
+    width: 80%;
+
 }
 
 section#bannerDer p#tituloArticulo {
     font-size: 0.7rem;
     color: #FFAAAA;
+    margin: 0;
+    margin: 0.3rem;
 }
 
 section#bannerDer p#precioAntes {
     text-decoration: line-through;
     color: black;
+    font-size: 0.7rem;
+    margin: 0;
+    margin: 0.3rem;
 }
 
 section#bannerDer p#precioAhora {
     background-color: #AA3939;
     color: white;
+    font-size: 0.7rem;
     width: 80%;
     margin: 0 auto;
     padding: 0.2rem;
     border-radius: 30px;
     margin-bottom: 1rem;
+    margin: 0 auto;
+    /* margin: 0.3rem; */
 }
 
 section#bannerDer button {
@@ -69,6 +75,9 @@ section#bannerDer button {
     color: white;
     padding: 0.4rem;
     border-radius: 10px; 
+    font-size: 0.7rem;
+    margin: 0.3rem;
+
 }
 
 section#bannerDer button:hover {
