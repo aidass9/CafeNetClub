@@ -34,13 +34,15 @@ section#bannerIzq small {
 }
 
 /* BANNER DERECHA */
+
+section#bannerDer div {
+    border: 1px solid red;
+    height: 50%;
+    background-color: yellow;
+}
 section#bannerDer img {
     width: 5rem;
 }
-
-/* section#bannerDer img:hover {
-    width: 5.5rem;
-} */
 
 section#bannerDer p#tituloArticulo {
     font-size: 0.7rem;

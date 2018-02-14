@@ -51,6 +51,7 @@ header {
     width: 100%;
     background-color: #844e34;
     height: 3.4rem;
+    z-index: 9;
 }
 
 header div#logoEnlacesMovil {

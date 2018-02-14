@@ -1,16 +1,15 @@
-section#bannerIzq, section#bannerDer {
-    display: none;
-}
-
-
-form {
-    width: 15rem;
-    margin: 0 auto;
-    font-size: 0.8rem;
-}
+@charset "utf-8";
 
 main form input[type] {
+    font-size: 0.5rem;
+}
+
+main form label {
     font-size: 0.6rem;
+}
+
+main form div#boton {
+    text-align: right;
 }
 
 main form input[type='submit'] {
@@ -24,6 +23,27 @@ main form input[type='submit']:hover {
     border: 1px solid #daaa93;
 }
 
-main form div#boton {
-    text-align: right;
+@media (min-width: 768px) {
+    section#bannerIzq, section#bannerDer {
+        display: none;
+    }
+
+    form {
+        width: 16rem;
+        margin: 0 auto;
+        font-size: 0.8rem;
+    }
+
+    main form input[type] {
+        font-size: 0.6rem;
+    }
+
+    main form label {
+        font-size: 0.7rem;
+    }
+
+    main form input[type='submit'] {
+        font-size: 0.7rem;
+    }
+    
 }
