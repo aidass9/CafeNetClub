@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+main {
+    text-align: center;
+}
+
+div#carouselExampleIndicators {
+    width: 70%;
+    margin: 0 auto;
+    
+}
