@@ -355,6 +355,7 @@ footer .fa-instagram {
     main {
         width: 70%;
         margin-top: 6rem;
+        /* margin-bottom: 6rem; */
     }
     p .fa-arrow-circle-up {
         bottom: 6rem;
