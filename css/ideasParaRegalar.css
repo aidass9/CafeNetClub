@@ -1,11 +1,51 @@
 @charset "utf-8";
 
-main {
-    text-align: center;
+div#carouselExampleIndicators {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    border: 4px solid white;
+    top: 4rem;
+
 }
 
-div#carouselExampleIndicators {
-    width: 70%;
-    margin: 0 auto;
-    
+ol.carousel-indicators, main h2#h2Pc {
+ 
+    display: none;
 }
+
+
+
+main {
+    margin-top: 8.5rem;
+    /* width: 90%; */
+}
+
+@media (min-width: 768px) {
+    div#carouselExampleIndicators {
+        width: 70%;
+
+        position: static;
+        
+        margin: 0 auto;
+        
+    }
+
+    ol.carousel-indicators {
+        display: flex !important;
+        
+    }
+
+    main {
+        margin-top: 6rem;
+    }
+/* 
+    main h2#h2Pc {
+        display: block;
+    }
+
+    main h2#h2Movil {
+        display: none;
+    } */
+}
+

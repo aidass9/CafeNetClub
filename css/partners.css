@@ -6,10 +6,28 @@ section#bannerIzq, section#bannerDer {
 
 main div#partners {
     border: 1px solid red;
+    margin: 0 auto;
+}
+
+main div#partner1, div#partner2, div#partner3, div#partner4 {
+    border: 1px solid blue;
+    height: 3rem;
+    /* display: flex;
+    justify-content: space-around; */
+
+
+}
+
+main div#partners a {
+    border: 1px solid orange;
+    font-size: 0.8rem;
+ 
 }
 
 main div#partners img {
-    width: 7rem;
+    width: 4rem;
+    border: 1px solid yellow;
+
 }
 
 /* main div#partner1 img{
