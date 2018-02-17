@@ -5,18 +5,60 @@ section#bannerIzq, section#bannerDer {
 }
 
 main div#partners {
-    border: 1px solid red;
-    margin: 0 auto;
+    /* border: 1px solid red; */
+    /* margin: 0 auto; */
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
-main div#partner1, div#partner2, div#partner3, div#partner4 {
+main a {
+    text-decoration: none !important;
+}
+
+main div.partner {
+    border: 2px solid #f3c94b;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+    margin-bottom: 0.5rem;
+
+}
+
+span#imagen {
+    flex: 60%;
+    /* border: 1px solid yellow; */
+    text-align: center;
+
+}
+
+span#nombre {
+    flex: 40%;
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-size: 0.8rem;
+    color: #844e34;
+
+}
+
+div.partner img {
+    width: 5.5rem;
+}
+
+span#nombre:hover {
+    color: #f3c94b;
+    font-weight: bold;
+}
+
+
+/* main div#partner1, div#partner2, div#partner3, div#partner4 {
     border: 1px solid blue;
     height: 3rem;
     /* display: flex;
     justify-content: space-around; */
 
 
-}
+/*}
 
 main div#partners a {
     border: 1px solid orange;
@@ -28,7 +70,7 @@ main div#partners img {
     width: 4rem;
     border: 1px solid yellow;
 
-}
+} */
 
 /* main div#partner1 img{
     width: 7rem;
