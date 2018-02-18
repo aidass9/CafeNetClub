@@ -252,6 +252,7 @@ footer .fa-instagram {
     header {
         height: 2.5rem;
         position: fixed;
+        background-color: #844e34;
     }
     header img#logo {
         width: 6.2rem;
@@ -295,8 +296,8 @@ footer .fa-instagram {
         margin-right: 0.1rem;
     }
     header nav#menuPaginasPc ul {
-        /* background-color: #daaa93; */
-        background-color: rgba(218, 170, 147, 0.9);
+        background-color: #daaa93;
+        /* background-color: rgba(218, 170, 147, 0.9); */
         position: absolute;
         top: 2.5rem;
         width: 100%;

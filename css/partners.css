@@ -34,7 +34,7 @@ span#imagen {
 
 span#nombre {
     flex: 40%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: center;
     font-size: 0.8rem;
     color: #844e34;
@@ -53,28 +53,18 @@ span#nombre:hover {
     font-weight: bold;
 }
 
+@media (min-width: 768px) {
 
-/* main div#partner1, div#partner2, div#partner3, div#partner4 {
-    border: 1px solid blue;
-    height: 3rem;
-    /* display: flex;
-    justify-content: space-around; */
+    /* main div#partners {
+        margin: 3.5rem;
+    } */
 
-
-/*}
-
-main div#partners a {
-    border: 1px solid orange;
-    font-size: 0.8rem;
- 
+    main div.partner {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    div.partner img {
+        width: 12rem;
+        
+    }
 }
-
-main div#partners img {
-    width: 4rem;
-    border: 1px solid yellow;
-
-} */
-
-/* main div#partner1 img{
-    width: 7rem;
-} */
