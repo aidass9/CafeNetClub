@@ -331,10 +331,11 @@ footer .fa-instagram {
         font-size: 1.2rem;
         text-align: center;
     }
+    
     /* BANNERS */
     section#bannerIzq {
         display: block;
-        width: 10%;
+        width: 11%;
         height: 20rem;
         position: absolute;
         top: 8rem;
@@ -343,7 +344,7 @@ footer .fa-instagram {
     }
     section#bannerDer {
         display: block;
-        width: 10%;
+        width: 11%;
         height: 20rem;
         position: absolute;
         top: 8rem;
@@ -351,11 +352,14 @@ footer .fa-instagram {
         margin-right: 2.5%;
         border-radius: 10px;
     }
+
+    /* MAIN */
     main {
         width: 70%;
         margin-top: 6rem;
-        /* margin-bottom: 6rem; */
+        margin-bottom: 1.5rem;
     }
+
     p .fa-arrow-circle-up {
         bottom: 6rem;
         font-size: 2.5rem;
@@ -363,6 +367,7 @@ footer .fa-instagram {
     p .fa-arrow-circle-up:hover {
         font-size: 2.8rem;
     }
+
     /* FOOTER */
     footer div#avisoCookies a:hover {
         color: #844e34;

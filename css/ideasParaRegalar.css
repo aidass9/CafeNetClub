@@ -47,7 +47,6 @@ div.prod img {
 }
 
 div.prod img:hover {
-
     transform: scale(1.1, 1.1);
 }
 
@@ -94,7 +93,7 @@ div.prod button {
     }
 
     ol.carousel-indicators {
-        margin-bottom: 11rem;
+        margin-bottom: 14%;
     }
 
     div.prod button:hover {

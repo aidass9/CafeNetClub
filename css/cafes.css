@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+a {
+    text-decoration: none !important;
+}
+
+section#cafes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
+}
+
+section#cafes p {
+    font-size: 1.2rem;
+    color: #D46A6A;
+
+}
+
+section#cafes div.cafe {
+    flex: 1;
+    text-align: center;
+}
+
+div.cafe img {
+    width: 10rem;
+    border-radius: 200px;
+}
+
+div.descripcion h4 {
+    text-align: center;
+}
+
+div.descripcion p {
+    font-size: 0.6rem;
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+
+    section#cafes p:hover {
+        font-size: 1.3rem;
+    
+    }
+
+    div.cafe {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    div.cafe img {
+        width: 12.5rem;
+        transition: 2s transform;
+        padding-bottom: 0.5rem;
+        opacity: 0.7;
+    }
+
+    div.cafe img:hover {
+        opacity: 1;
+        transform: scale(1.1, 1.1);
+    }
+
+
+}
+    

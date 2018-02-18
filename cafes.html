@@ -1,1 +1,295 @@
-CAFES
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./img/coffee.png" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="./css/banners.css">
+    <link rel="stylesheet" type="text/css" href="./css/cafes.css">
+
+    <title>Cafe Net Club</title>
+</head>
+
+<body>
+
+    <header>
+        <section id="cabeceraMovil">
+            <div id="logoEnlacesMovil">
+                <a href="index.html">
+                    <img id="logo" src="./img/cabecera/logo.png">
+                </a>
+                <h5>Cafe Net Club</h5>
+                <i onclick="mostrarMenu(this)" id="botonMenu" class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+
+            <nav id="menuNavegacionPaginas">
+                <div id="menuPaginas">
+
+                    <ul>
+                        <li>
+                            <a href="cafes.html">
+                                <i class="fa fa-coffee" aria-hidden="true"></i>Cafés</a>
+                        </li>
+                        <li>
+                            <a href="ideasParaRegalar.html">
+                                <i class="fa fa-gift" aria-hidden="true"></i>Ideas para regalar</a>
+                        </li>
+                        <li>
+                            <a href="contacto.html">
+                                <i class="fa fa-comments" aria-hidden="true"></i>Contacto</a>
+                        </li>
+                        <li>
+                            <a href="partners.html">
+                                <i class="fa fa-handshake-o" aria-hidden="true"></i>Partners</a>
+                        </li>
+                        <li>
+                            <a href="iniciarSesion.html">
+                                <i class="fa fa-user" aria-hidden="true"></i>Iniciar sesión</a>
+                        </li>
+                        <li>
+                            <a href="registrarse.html">
+                                <i class="fa fa-sign-in" aria-hidden="true"></i>Registrarse</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </nav>
+
+
+        </section>
+
+
+        <section id="cabeceraPc">
+            <a href="plantilla.html">
+                <img id="logo" src="./img/cabecera/logo.png">
+            </a>
+
+            <nav id="logoInicio">
+
+                <ul id="registroInicio">
+                    <li>
+                        <a href="iniciarSesion.html">
+                            <i class="fa fa-user" aria-hidden="true"></i>Iniciar sesión</a>
+                    </li>
+                    <li>
+                        <a href="registrarse.html">
+                            <i class="fa fa-sign-in" aria-hidden="true"></i>Registrarse</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <nav id="menuPaginasPc">
+                <ul>
+                    <li>
+                        <a href="cafes.html">
+                            <i class="fa fa-coffee" aria-hidden="true"></i>Cafés
+                        </a>
+                    </li>
+                    <li>
+                        <a href="ideasParaRegalar.html">
+                            <i class="fa fa-gift" aria-hidden="true"></i>Ideas para regalar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">
+                            <i class="fa fa-comments" aria-hidden="true"></i>Contacto
+                        </a>
+                    </li>
+                    <li>
+                        <a href="partners.html">
+                            <i class="fa fa-handshake-o" aria-hidden="true"></i>Partners
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </section>
+
+    </header>
+
+    <a href="ideasParaRegalar.html" id="enlaceTiendaIzq">
+        <section id="bannerIzq">
+            <h6>¡PROMOCIÓN!</h6>
+            <p>Aprovechate de las ofertas que tenemos.</p>
+
+            <p>El lunes, miércoles y viernes, un 15%* de descuento</p>
+
+            <img src="./img/banners/descuento.png">
+            <br>
+
+            <small>*Por compras superiores a 25€</small>
+        </section>
+    </a>
+
+
+    <section id="bannerDer">
+        <h6>¡OFERTA DEL MES!</h6>
+        <img src="./img/banners/tazaGOT.jpg">
+        <p id="tituloArticulo">Taza GOT Stark</p>
+        <p id="precioAntes">Antes: 15€</p>
+        <p id="precioAhora">Ahora: 4'50€</p>
+        <a href="ideasParaRegalar.html">
+            <button onclick="ideasParaRegalar.html">Comprar</button>
+        </a>
+    </section>
+
+    <main>
+        <h2>Cafés</h2>
+
+        <section id="cafes">
+            <a href="#arabicaNoLavado">
+                <div class="cafe">
+                    <img src="./img/cafes/arabica.jpg">
+                    <p>Arábica no lavado</p>
+                </div>
+            </a>
+
+            <a href="#arabicaLavado">
+                <div class="cafe">
+                    <img src="./img/cafes/arabicaLavado.jpg">
+                    <p>Arábica lavado</p>
+                </div>
+            </a>
+
+            <a href="#caracolillo">
+                <div class="cafe">
+                    <img src="./img/cafes/caracolillo.jpg">
+                    <p>Caracolillo</p>
+                </div>
+            </a>
+
+            <a href="#robusta">
+                <div class="cafe">
+                    <img src="./img/cafes/robusta.jpg">
+                    <p>Robusta</p>
+                </div>
+            </a>
+        </section>
+
+        <section id="descCafes">
+
+            <div class="descripcion" id="arabicaNoLavado">
+                <h4>Arábica no lavado</h4>
+                <p>
+                    Cultivado básicamente en Brasil, su cultivo se inició en 1732 en las entonces colonias portuguesas de Pará, Amazonas y Marañón.
+                    En 1760 se introdujeron cafetos procedentes de la colonia portuguesa de Goa, en la India. Son granos
+                    ovalados, de coloración verde amarillenta y olor a hierba verde, con sabores muy variados en función
+                    de la región de cultivo. Son típicos los Río, Riados y Riozonas por su característico y acusado sabor
+                    que recuerda el yodo
+                </p>
+            </div>
+
+            <hr>
+
+            <div class="descripcion" id="arabicaLavado">
+                <h4>Arábica lavado</h4>
+                <p>
+                    Son grandes granos, de forma elíptica, de coloración verde-azulada y olor a verde. Tostado desarrolla grandemente su volumen
+                    y en la taza es un café aromático de excelente sabor. Se produce fundamentalmente en países centroamericanos
+                    y esteafricanos.
+                </p>
+            </div>
+
+            <hr>
+
+            <div class="descripcion" id="caracolillo">
+                <h4>Caracolillo</h4>
+                <p>
+                    No es ninguna variedad, pero sí un tipo especial de grano. De hecho es un grano “defectuoso”
+                    que no crece normalmente al estar ubicado al final de las ramas y recibir poco aporte de savia. Crece
+                    sobre sí mismo, desarrollando un solo grano redondo dentro de la cereza en lugar de los dos medios granos
+                    normales. Al estar localizado en la periferia del árbol, recibe la máxima aportación de lluvia y de luz
+                    solar. Es un café muy apreciado por su paladar maduro y afrutado.
+                </p>
+            </div>
+
+            <hr>
+
+            <div class="descripcion" id="robusta">
+                <h4>Robusta</h4>
+                <p>
+                    Aportan un 30% a la producción mundial. Especie “descubierta”
+                    al observar que era inmune a la plaga de hongos Hemiliea Vastatrix que diezma a los arábicas, de ahí
+                    le viene el nombre. Originarios del Zaire, los principales cultivos están en zonas bajas y secas de África,
+                    Indochina y Brasil. Son cafés con un mayor contenido de cafeína, del 2 al 4%. Presenta un grano redondo,
+                    regular, de color marrón amarillento y con olor a paja seca. El tueste es normal y da lugar a un café
+                    fuerte, de gran cuerpo, de color oscuro y de fuerte sabor con un punto amargo que se pega al paladar.
+                    Café normalmente tratado en seco –no lavado-, que comporta la posible presencia de tierra en
+                </p>
+            </div>
+
+        </section>
+
+        <p>
+            <a href="#">
+                <i class="fa fa-arrow-circle-up"></i>
+            </a>
+        </p>
+
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div id="avisoCookies">
+                <a href="avisoLegal.html">Aviso legal</a>
+                <br>
+                <a href="cookies.html">Cookies</a>
+            </div>
+
+            <div id="redesSocialesCopy">
+                <a href="https://www.facebook.com/">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <p>
+                    <a href="#">
+                        <em>© Cafe Net Club</em> 2018</a>
+                </p>
+            </div>
+
+
+        </div>
+
+
+    </footer>
+
+
+    <script>
+        function mostrarMenu(boton) {
+            var menu = document.getElementById("menuPaginas");
+            if (menu.style.display === "block") {
+                boton.classList = "fa fa-bars";
+                menu.style.display = "none";
+                document.body.style.backgroundColor = "";
+            }
+            else {
+                boton.classList = "fa fa-times";
+                menu.style.display = "block";
+                // document.body.style.backgroundColor = "grey";
+                // document.body.style.opacity = "0.5";
+
+
+
+            }
+
+
+        }
+
+    </script>
+</body>
+
+</html>
