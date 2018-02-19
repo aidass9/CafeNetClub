@@ -15,7 +15,7 @@ section#cafes {
 section#cafes p {
     font-size: 1.2rem;
     color: #D46A6A;
-
+    height: 2.5rem;
 }
 
 section#cafes div.cafe {
@@ -41,7 +41,7 @@ div.descripcion p {
 
     section#cafes p:hover {
         font-size: 1.3rem;
-    
+
     }
 
     div.cafe {
@@ -54,7 +54,7 @@ div.descripcion p {
     div.cafe img {
         width: 12.5rem;
         transition: 2s transform;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.7rem;
         opacity: 0.7;
     }
 
