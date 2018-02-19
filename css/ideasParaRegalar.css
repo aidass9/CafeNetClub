@@ -18,7 +18,7 @@ ol.carousel-indicators {
     display: none;
 }
 
-div#productos {
+section#productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
