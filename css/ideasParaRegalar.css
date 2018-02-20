@@ -14,7 +14,6 @@ div#carouselExampleIndicators {
 }
 
 ol.carousel-indicators {
- 
     display: none;
 }
 
@@ -79,11 +78,6 @@ div.prod button {
         
     }
 
-    ol.carousel-indicators {
-        display: flex !important;
-        
-    }
-
     a.carousel-control-prev {
         margin-left: 13rem;
     }
@@ -111,9 +105,6 @@ div.prod button {
         transition: 2s opacity;
         opacity: 1;
     }
-
-
-    
 
 }
 
