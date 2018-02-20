@@ -297,7 +297,6 @@ footer .fa-instagram {
     }
     header nav#menuPaginasPc ul {
         background-color: #daaa93;
-        /* background-color: rgba(218, 170, 147, 0.9); */
         position: absolute;
         top: 2.5rem;
         width: 100%;
@@ -312,6 +311,11 @@ footer .fa-instagram {
         width: 7rem;
         
     }
+
+    header ul#registroInicio li {
+        width: 9rem;
+    }
+
     header nav#menuPaginasPc li:nth-child(2) {
         width: 9.5rem;
     }
