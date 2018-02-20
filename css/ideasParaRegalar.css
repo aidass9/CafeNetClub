@@ -34,6 +34,7 @@ div.prod {
     background-color: rgba(226, 174, 174, 0.29);
     border: 2px solid rgba(212, 106, 106, 0.41);
     border-radius: 20px;
+    max-width: 275px;
 
 }
 
